@@ -1,0 +1,34 @@
+.container{
+    background: #040329;
+    color: white;
+    line-height: 20px;
+    display:flex;
+    justify-content:space-around;
+    align-content:center;  
+}
+.text-logo h1{
+    text-transform:uppercase;  
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.search input{
+    padding: 5px;
+    margin: 15px 0 5px 5px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.search button{
+    margin-left: 5px;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background: none;
+    color: white;  
+}
+.search button:hover{
+    background: #ffffff;
+    color: #04032c;
+    transition: 0.5s ease-in-out;
+}

@@ -1,0 +1,25 @@
+<div class="card">
+    <div class="card-header profil">
+        <img src="../../{{ publication.userPdp }}" alt="photo_profil">
+        <p>{{ publication.userName }}</p>
+    </div>
+    <div class="card-content">
+        <p>{{ publication.description }}</p>
+    </div>
+    <div class="card-image">
+        <img src="../../{{ publication.imagePath }}" alt="photo_profil">
+    </div>
+    <div class="card-action">
+        <img src="../../assets/icon/heart-grey.png" alt="photo_profil">
+        <img src="../../assets/icon/share.png" alt="photo_profil">
+    </div>
+    <ng-container *ngFor="let item of commentaires">
+        <app-comment [comment]
+        ="item"></app-comment>
+    </ng-container>
+    <div class="card-comment-section">
+        <textarea placeholder="Ajouter un commentaire" cols="30" rows="1"></textarea>
+        <button>Publier</button>
+    </div>
+    
+</div>

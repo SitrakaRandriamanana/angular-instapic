@@ -1,0 +1,42 @@
+
+.card{
+    width: 400px;
+    margin: 25px auto;
+    padding: 15px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 1px rgba(0,0,0,0.2);
+}
+.card-header{
+    margin-bottom: 5px;
+}
+.card-image img{
+    width: 400px;
+}
+.card-action img{
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    margin: 5px 0;
+}
+.card-comment-section{
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-comment-section button{
+    color: #ffffff;
+    padding: 10px 15px;
+    background: #040329;
+    border: 2px solid #040329;
+    border-radius: 5px;
+}
+
+.card-comment-section button:hover{
+    background: #ffffff;
+    color: #04032c;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
